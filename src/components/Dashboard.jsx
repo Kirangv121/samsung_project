@@ -15,6 +15,7 @@ const Dashboard = () => {
   return (
     <div className="p-6">
       <h2 className="text-2xl font-bold mb-4">Garbage Bin Status</h2>
+      <h3>Hello its kisan</h3>
 
       {/* Waste Level Alerts */}
       <WasteLevelAlerts bins={bins} />
